@@ -131,7 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Géneros favoritos"
+            android:text="@string/favorite_genre"
             android:textColor="@android:color/holo_orange_dark"
             android:textStyle="bold" />
 
@@ -213,7 +213,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Ciudad de nacimiento"
+            android:text="@string/city_of_birth"
             android:textColor="@android:color/holo_orange_dark"
             android:textStyle="bold" />
 
@@ -229,7 +229,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Registrar"
+            android:text="@string/register"
             android:textAllCaps="false" />
 
         <TextView

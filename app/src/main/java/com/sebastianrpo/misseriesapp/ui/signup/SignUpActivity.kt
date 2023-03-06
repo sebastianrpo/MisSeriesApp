@@ -59,7 +59,7 @@ class SignUpActivity : AppCompatActivity() {
                         }
 
                         val placeOfBirth = signUpbinding.placeBirthSpinner.selectedItem.toString()
-                        if (placeOfBirth == "Seleccione una ciudad") {
+                        if (placeOfBirth == "-") {
                                 Toast.makeText(
                                         this,
                                         "Por favor ingrese la ciudad de nacimiento",

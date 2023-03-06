@@ -18,8 +18,11 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="birth_date">Fecha de nacimiento</string>
+    <string name="favorite_genre">Géneros favoritos</string>
+    <string name="city_of_birth">Ciudad de nacimiento</string>
+    <string name="register">Registrar</string>
     <string-array name="cities">
-        <item>Seleccione una ciudad</item>
+        <item>-</item>
         <item>Barranquilla</item>
         <item>Bogotá</item>
         <item>Cali</item>
