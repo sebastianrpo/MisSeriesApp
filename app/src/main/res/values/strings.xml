@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mis Series App</string>
+    <string name="register_form">Formulario de registro</string>
+    <string name="name">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="required_field">*Campo obligatorio</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repita la contraseña</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="action">Acción</string>
+    <string name="adventure">Aventura</string>
+    <string name="comedy">Comedia</string>
+    <string name="romance">Romántico</string>
+    <string name="suspense">Suspenso</string>
+    <string name="horror">Terror</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="birth_date">Fecha de nacimiento</string>
+    <string-array name="cities">
+        <item>Seleccione una ciudad</item>
+        <item>Barranquilla</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Cartagena</item>
+        <item>Medellín</item>
+    </string-array>
+</resources>
