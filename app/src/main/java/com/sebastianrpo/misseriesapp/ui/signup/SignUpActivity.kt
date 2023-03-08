@@ -17,7 +17,6 @@ class SignUpActivity : AppCompatActivity() {
                 signUpbinding = ActivitySignUpBinding.inflate(layoutInflater)
                 val view = signUpbinding.root
                 setContentView(view)
-
                 signUpbinding.dateBirthEditText.setOnClickListener { showDatePickerDialog() }
                 signUpbinding.registerButton.setOnClickListener {
                         val name = signUpbinding.nameEditText.text.toString()
@@ -80,7 +79,6 @@ class SignUpActivity : AppCompatActivity() {
                                                 Snackbar.LENGTH_INDEFINITE
                                         ).setAction("Aceptar") {}.show()
                                 }
-
                         }
                 }
         }

@@ -29,6 +29,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
+            android:contentDescription="Logo"
             android:textAlignment="center"
             app:srcCompat="@drawable/logo" />
 
@@ -37,8 +38,8 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:helperText="@string/required_field"
-            app:errorEnabled="true">
+            app:errorEnabled="true"
+            app:helperText="@string/required_field">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/name_edit_text"
@@ -222,7 +223,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:entries="@array/cities"/>
+            android:entries="@array/cities" />
 
         <Button
             android:id="@+id/register_button"
@@ -236,7 +237,7 @@
             android:id="@+id/info_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Info"
+            android:text="@string/info"
             android:textColor="@android:color/holo_orange_dark" />
 
     </LinearLayout>

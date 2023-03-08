@@ -21,6 +21,7 @@
     <string name="favorite_genre">Géneros favoritos</string>
     <string name="city_of_birth">Ciudad de nacimiento</string>
     <string name="register">Registrar</string>
+    <string name="info">Info</string>
     <string-array name="cities">
         <item>-</item>
         <item>Barranquilla</item>
