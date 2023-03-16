@@ -34,7 +34,17 @@ class SignUpActivity : AppCompatActivity() {
                                         signUpbinding.emailTextInputLayout.error = null
                                 }
                         val password = signUpbinding.passwordEditText.text.toString()
+                        if (password.isEmpty()){
+                                signUpbinding.passwordTextInputLayout.error = "El campo 'Contraseña' es obligatorio"
+                        } else {
+                                signUpbinding.passwordTextInputLayout.error = null
+                        }
                         val repPassword = signUpbinding.repPasswordEditText.text.toString()
+                        if (repPassword.isEmpty()){
+                                signUpbinding.repPasswordTextInputLayout.error = "El campo 'Repita la contraseña' es obligatorio"
+                        } else {
+                                signUpbinding.repPasswordTextInputLayout.error = null
+                        }
                         val genre = if (signUpbinding.maleRadioButton.isChecked)
                                 "Masculino"
                         else

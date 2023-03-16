@@ -16,7 +16,7 @@
             android:name=".ui.splash.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:label="@string/title_activity_splash"
+            android:label="@string/app_name"
             android:theme="@style/Theme.MisSeriesApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
