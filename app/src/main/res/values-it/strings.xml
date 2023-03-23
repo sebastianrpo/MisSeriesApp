@@ -7,6 +7,7 @@
     <string name="required_field">*Campo obbligatorio</string>
     <string name="password">Password</string>
     <string name="rep_password">Ripetere la password</string>
+    <string name="genre">Genere</string>
     <string name="male">Uomo</string>
     <string name="female">Donna</string>
     <string name="action">Azione</string>
@@ -22,6 +23,15 @@
     <string name="city_of_birth">Città di nascita</string>
     <string name="register">Registro</string>
     <string name="info">Informazioni</string>
+    <string name="obligatory_name">Il campo "Nome" è obbligatorio</string>
+    <string name="obligatory_email">Il campo "E-mail" è obbligatorio</string>
+    <string name="invalid_email">L\'indirizzo e-mail inserito non è valido</string>
+    <string name="obligatory_password">Il campo "Password" è obbligatorio</string>
+    <string name="obligatory_rep_password">Il campo "Ripetere la password" è obbligatorio.</string>
+    <string name="invalid_password">La password deve essere più lunga di 6 caratteri</string>
+    <string name="passwords_dont_match">Le password non corrispondono</string>
+    <string name="blank_fields">Campi vuoti</string>
+
     <string-array name="cities">
         <item>-</item>
         <item>Barranquilla</item>

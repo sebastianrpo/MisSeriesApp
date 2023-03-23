@@ -7,6 +7,7 @@
     <string name="required_field">*Required field</string>
     <string name="password">Password</string>
     <string name="rep_password">Repeat password</string>
+    <string name="genre">Genre</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="action">Action</string>
@@ -22,6 +23,15 @@
     <string name="city_of_birth">City of birth</string>
     <string name="register">Register</string>
     <string name="info">Information</string>
+    <string name="obligatory_name">The "Name" field is required</string>
+    <string name="obligatory_email">The "Email" field is required</string>
+    <string name="invalid_email">The e-mail address entered is invalid</string>
+    <string name="obligatory_password">The "Password" field is required</string>
+    <string name="obligatory_rep_password">The "Repeat password" field is required</string>
+    <string name="invalid_password">Password must be longer than 6 characters</string>
+    <string name="passwords_dont_match">Passwords do not match</string>
+    <string name="blank_fields">Blank fields</string>
+
     <string-array name="cities">
         <item>-</item>
         <item>Barranquilla</item>

@@ -3,9 +3,10 @@
     <string name="register_form">Formulario de registro</string>
     <string name="name">Nombre</string>
     <string name="email">Correo electrónico</string>
-    <string name="required_field">*Campo obligatorio</string>
+    <string name="required_field">*Campos obligatorio</string>
     <string name="password">Contraseña</string>
     <string name="rep_password">Repita la contraseña</string>
+    <string name="genre">Género</string>
     <string name="male">Masculino</string>
     <string name="female">Femenino</string>
     <string name="action">Acción</string>
@@ -21,6 +22,15 @@
     <string name="city_of_birth">Ciudad de nacimiento</string>
     <string name="register">Registrar</string>
     <string name="info">Información</string>
+    <string name="obligatory_name">El campo "Nombre" es obligatorio</string>
+    <string name="obligatory_email">El campo "Correo electrónico" es obligatorio</string>
+    <string name="invalid_email">El correo electrónico ingresado no es válido</string>
+    <string name="obligatory_password">El campo "Contraseña" es obligatorio</string>
+    <string name="obligatory_rep_password">El campo "Repita la contraseña" es obligatorio</string>
+    <string name="invalid_password">La contraseña debe tener más de 6 caracteres</string>
+    <string name="passwords_dont_match">Las contraseñas no coinciden</string>
+    <string name="blank_fields">Campos en blanco</string>
+
     <string-array name="cities">
         <item>-</item>
         <item>Barranquilla</item>
